@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-30T05:51:19.744Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="KBUSrFKhXfB9xnUH4gWv" version="14.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-30T06:36:21.194Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="dpw1AvNUB0Ada2osJcdT" version="14.8.2" type="github">
   <diagram id="mTtdryZbqsRJS896h40v" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -55,16 +55,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="blm5VY7jWJpTRxp0EUJT-15" value="Hearbeat Service&lt;br&gt;[For internal services]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="blm5VY7jWJpTRxp0EUJT-14">
+        <mxCell id="blm5VY7jWJpTRxp0EUJT-15" value="Hearbeat Event&lt;br&gt;[For internal services]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="blm5VY7jWJpTRxp0EUJT-14">
           <mxGeometry x="-0.3525" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="blm5VY7jWJpTRxp0EUJT-1" value="NEFT Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="80" width="540" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="blm5VY7jWJpTRxp0EUJT-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="blm5VY7jWJpTRxp0EUJT-3" target="blm5VY7jWJpTRxp0EUJT-12">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="blm5VY7jWJpTRxp0EUJT-3" value="Messaging System&lt;br&gt;[Container: Kafka]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="70" y="270" width="600" height="60" as="geometry" />
@@ -95,6 +92,9 @@
         </mxCell>
         <mxCell id="blm5VY7jWJpTRxp0EUJT-23" value="Alert&lt;br&gt;Service&lt;br&gt;[Sprint Boot]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="blm5VY7jWJpTRxp0EUJT-11">
           <mxGeometry x="260" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="blm5VY7jWJpTRxp0EUJT-25" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="blm5VY7jWJpTRxp0EUJT-11">
+          <mxGeometry x="480" y="300" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="blm5VY7jWJpTRxp0EUJT-16" value="All the events posted from NEFT Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="310" y="360" width="130" height="20" as="geometry" />
