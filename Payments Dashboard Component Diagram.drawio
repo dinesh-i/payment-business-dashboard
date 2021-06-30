@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-30T05:47:29.388Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="2XLxn57XtS1_pkGJ0wEn" version="14.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-30T05:51:19.744Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="KBUSrFKhXfB9xnUH4gWv" version="14.8.2" type="github">
   <diagram id="mTtdryZbqsRJS896h40v" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -70,7 +70,7 @@
           <mxGeometry x="70" y="270" width="600" height="60" as="geometry" />
         </mxCell>
         <mxCell id="blm5VY7jWJpTRxp0EUJT-11" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="410" width="590" height="460" as="geometry" />
+          <mxGeometry x="90" y="400" width="590" height="460" as="geometry" />
         </mxCell>
         <mxCell id="blm5VY7jWJpTRxp0EUJT-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="blm5VY7jWJpTRxp0EUJT-11" source="blm5VY7jWJpTRxp0EUJT-12" target="blm5VY7jWJpTRxp0EUJT-17">
           <mxGeometry relative="1" as="geometry" />
@@ -83,6 +83,18 @@
         </mxCell>
         <mxCell id="blm5VY7jWJpTRxp0EUJT-18" value="Payments Dashboard Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="blm5VY7jWJpTRxp0EUJT-11">
           <mxGeometry y="430" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="blm5VY7jWJpTRxp0EUJT-20" value="Transaction&amp;nbsp;&lt;br&gt;Service&lt;br&gt;[Sprint Boot]&lt;br&gt;&lt;br&gt;Transaction Overview, Transaction Insight" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="blm5VY7jWJpTRxp0EUJT-11">
+          <mxGeometry x="190" y="200" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="blm5VY7jWJpTRxp0EUJT-21" value="Payments Dashboard Web&lt;br&gt;[Container: Angular]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="blm5VY7jWJpTRxp0EUJT-11">
+          <mxGeometry x="310" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="blm5VY7jWJpTRxp0EUJT-22" value="Health&lt;br&gt;Service&lt;br&gt;[Sprint Boot]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="blm5VY7jWJpTRxp0EUJT-11">
+          <mxGeometry x="450" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="blm5VY7jWJpTRxp0EUJT-23" value="Alert&lt;br&gt;Service&lt;br&gt;[Sprint Boot]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="blm5VY7jWJpTRxp0EUJT-11">
+          <mxGeometry x="260" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="blm5VY7jWJpTRxp0EUJT-16" value="All the events posted from NEFT Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="310" y="360" width="130" height="20" as="geometry" />
